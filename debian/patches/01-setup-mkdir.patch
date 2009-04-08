@@ -1,0 +1,26 @@
+diff -Nur opentumblr-0.0.1/setup.py opentumblr-0.0.1.new/setup.py
+--- opentumblr-0.0.1/setup.py	2009-04-08 03:03:58.000000000 -0500
++++ opentumblr-0.0.1.new/setup.py	2009-04-08 03:08:33.000000000 -0500
+@@ -1,7 +1,5 @@
+-import os
+ from distutils.core import setup
+-#from distutils.sysconfig import get_python_lib
+-
++import os
+ 
+ ipath_docs = '/usr/share/doc/opentumblr/'
+ ipath_images = '/usr/share/pixmaps/opentumblr/'
+@@ -14,13 +12,6 @@
+ doc_files =['AUTHORS','INSTALL','LICENSE','README','THANKS']
+ icon_files = ['opentumblr/images/opentumblr.png','opentumblr/images/opentumblr.xpm']
+ 
+-if not os.path.isdir(ipath_docs):
+-    os.mkdir(ipath_docs)
+-
+-if not os.path.isdir(ipath_images):
+-    os.mkdir(ipath_images)
+-    os.mkdir(ipath_dashboard)
+-
+ setup(name="opentumblr",
+       version="0.0.1",
+       description="Cliente de escritorio para tumblr",

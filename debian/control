@@ -2,13 +2,12 @@ Source: opentumblr
 Section: unknown
 Priority: extra
 Maintainer: Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>
-Build-Depends: python (>=2.4), python-central (>= 0.5.6), cdbs, cdbs, debhelper (>= 5)
+Build-Depends: cdbs, debhelper (>= 5), patchutils, python (>=2.4), python-support (>= 0.5.3)
 Standards-Version: 3.7.2
-XS-Python-Version: all
 
 Package: opentumblr
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
-XB-Python-Version: ${python:Versions}
+Homepage: http://opentumblr.tumblr.com
+Depends: ${python:Depends}, python-simplejson
 Description: Desktop client to tumblr in python.
  Opentumblr is a Desktop client for blog to tumblr write in python.
