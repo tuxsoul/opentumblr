@@ -8,8 +8,8 @@ Standards-Version: 3.8.0
 Package: opentumblr
 Architecture: all
 Homepage: http://opentumblr.tumblr.com
-Depends: ${misc:Depends}, ${python:Depends}, python-simplejson
-Description: Desktop client to tumblr in python
+Depends: ${misc:Depends}, ${python:Depends}, python-simplejson, python-wxgtk2.4, python-wxgtk2.6, python-wxtools, python-wxversion
+Description: Desktop client to tumblr in Python
  Opentumblr is a Desktop client for blog to tumblr write in
  Python and use wxGlade, you don't need more browser's to
  post in tumblr.com
