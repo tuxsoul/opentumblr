@@ -1,10 +1,14 @@
 #!/usr/bin/make -f
 
 DEB_PYTHON_SYSTEM=pysupport
+DBK2MAN_XSL=/usr/share/xml/docbook/stylesheet/nwalsh/manpages/docbook.xsl
   
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/rules/simple-patchsys.mk
 include /usr/share/cdbs/1/class/python-distutils.mk
+
+build/opentumblr::
+	xsltproc --nonet $(DBK2MAN_XSL) debian/opentumblr.xml
 
 binary-post-install/opentumblr::
 	mv debian/opentumblr/usr/bin/opentumblr-client.py debian/opentumblr/usr/bin/opentumblr-client
