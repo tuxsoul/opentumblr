@@ -4,9 +4,5 @@ opentumblr for Debian
   * Create "patches/01-setup-mkdir.patch" to delete mkdir sentences in "setup.py", this sentences only
     show error and only are used to absolute paths, don't need this.
 
-  * Create "patches/02-desktop-fix.patch" this file patch "opentumblr.desktop" to execute "opentumblr"
-    why before call "login.py", but in Debian Python Policy can't exist files in "/usr/bin" with extensions,
-    to correct this "login.py" is renamed to "opentumblr" and "opentumblr.desktop" is patched.
-
  -- Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>  Mon,  6 Apr 2009 20:23:23 -0500
 

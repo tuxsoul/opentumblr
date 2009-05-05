@@ -7,5 +7,5 @@ include /usr/share/cdbs/1/rules/simple-patchsys.mk
 include /usr/share/cdbs/1/class/python-distutils.mk
 
 binary-post-install/opentumblr::
-	mv debian/opentumblr/usr/bin/login.py debian/opentumblr/usr/bin/opentumblr
+	mv debian/opentumblr/usr/bin/opentumblr-client.py debian/opentumblr/usr/bin/opentumblr-client
 
