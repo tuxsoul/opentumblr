@@ -1,0 +1,12 @@
+diff -Nur opentumblr-0.0.2/opentumblr.desktop opentumblr-0.0.2.new/opentumblr.desktop
+--- opentumblr-0.0.2/opentumblr.desktop	2009-05-05 16:28:19.000000000 -0500
++++ opentumblr-0.0.2.new/opentumblr.desktop	2009-05-05 17:31:06.000000000 -0500
+@@ -5,7 +5,7 @@
+ Name[es]= Cliente OpenTumblr
+ GenericName[es]= Cliente Tumblr
+ Comment[es]=Cliente de escritorio multiplataforma desarrollado en wxpython para tumblr
+-Exec=opentumblr-client.py
++Exec=opentumblr-client
+ Type=Application
+ Terminal=false
+ Categories=Application;Network;
