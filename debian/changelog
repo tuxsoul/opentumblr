@@ -1,15 +1,15 @@
 opentumblr (0.0.2-1) unstable; urgency=low
 
-  * New upstream version.
-  * Fix error posting reported by zodman.
-  * Renamed 'login.py' to 'opentumblr-client.py'.
-  * Maintenance in dashboard windows.
+  * New upstream release
+  * Fix error posting reported by zodman
+  * Renamed 'login.py' to 'opentumblr-client.py'
+  * Maintenance in dashboard windows
 
  -- Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>  Tue, 05 May 2009 16:49:08 -0500
 
 opentumblr (0.0.1-1) unstable; urgency=low
 
-  * Initial release.
+  * Initial release
 
  -- Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>  Mon,  6 Apr 2009 20:23:23 -0500
 
