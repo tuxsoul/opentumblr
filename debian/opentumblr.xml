@@ -27,16 +27,16 @@ and docbook-xsl in your Build-Depends control field.
 -->
 
   <!-- Fill in your name for FIRSTNAME and SURNAME. -->
-  <!ENTITY dhfirstname "<firstname>FIRSTNAME</firstname>">
-  <!ENTITY dhsurname   "<surname>SURNAME</surname>">
+  <!ENTITY dhfirstname "<firstname>Mario</firstname>">
+  <!ENTITY dhsurname   "<surname>tuxsoul</surname>">
   <!-- Please adjust the date whenever revising the manpage. -->
   <!ENTITY dhdate      "<date>mayo  5, 2009</date>">
   <!-- SECTION should be 1-8, maybe w/ subsection other parameters are
        allowed: see man(7), man(1). -->
-  <!ENTITY dhsection   "<manvolnum>SECTION</manvolnum>">
+  <!ENTITY dhsection   "<manvolnum>1</manvolnum>">
   <!ENTITY dhemail     "<email>tuxsoul@tuxsoul.com</email>">
   <!ENTITY dhusername  "Mario Oyorzabal Salgado">
-  <!ENTITY dhucpackage "<refentrytitle>OPENTUMBLR</refentrytitle>">
+  <!ENTITY dhucpackage "<refentrytitle>opentumblr</refentrytitle>">
   <!ENTITY dhpackage   "opentumblr">
 
   <!ENTITY debian      "<productname>Debian</productname>">
@@ -49,12 +49,8 @@ and docbook-xsl in your Build-Depends control field.
     <address>
       &dhemail;
     </address>
-    <author>
-      &dhfirstname;
-      &dhsurname;
-    </author>
     <copyright>
-      <year>2003</year>
+      <year>2009</year>
       <holder>&dhusername;</holder>
     </copyright>
     &dhdate;
@@ -67,67 +63,31 @@ and docbook-xsl in your Build-Depends control field.
   <refnamediv>
     <refname>&dhpackage;</refname>
 
-    <refpurpose>program to do something</refpurpose>
+    <refpurpose>Client to tumblr write in Python</refpurpose>
   </refnamediv>
   <refsynopsisdiv>
     <cmdsynopsis>
-      <command>&dhpackage;</command>
-
-      <arg><option>-e <replaceable>this</replaceable></option></arg>
-
-      <arg><option>--example <replaceable>that</replaceable></option></arg>
+      <command>opentumblr-client</command>
     </cmdsynopsis>
   </refsynopsisdiv>
   <refsect1>
     <title>DESCRIPTION</title>
 
     <para>This manual page documents briefly the
-      <command>&dhpackage;</command> and <command>bar</command>
-      commands.</para>
+      <command>&dhpackage;</command> command.</para>
 
     <para>This manual page was written for the &debian; distribution
       because the original program does not have a manual page.
       Instead, it has documentation in the &gnu;
       <application>Info</application> format; see below.</para>
 
-    <para><command>&dhpackage;</command> is a program that...</para>
+    <para><command>&dhpackage;</command> is a gui client to tumblr write in Python under MIT License.</para>
 
-  </refsect1>
-  <refsect1>
-    <title>OPTIONS</title>
-
-    <para>These programs follow the usual &gnu; command line syntax,
-      with long options starting with two dashes (`-').  A summary of
-      options is included below.  For a complete description, see the
-      <application>Info</application> files.</para>
-
-    <variablelist>
-      <varlistentry>
-        <term><option>-h</option>
-          <option>--help</option>
-        </term>
-        <listitem>
-          <para>Show summary of options.</para>
-        </listitem>
-      </varlistentry>
-      <varlistentry>
-        <term><option>-v</option>
-          <option>--version</option>
-        </term>
-        <listitem>
-          <para>Show version of program.</para>
-        </listitem>
-      </varlistentry>
-    </variablelist>
   </refsect1>
   <refsect1>
     <title>SEE ALSO</title>
 
-    <para>bar (1), baz (1).</para>
-
-    <para>The programs are documented fully by <citetitle>The Rise and
-      Fall of a Fooish Bar</citetitle> available via the
-      <application>Info</application> system.</para>
+    <para>Website: http://opentumblr.tumblr.com</para>
   </refsect1>
   <refsect1>
     <title>AUTHOR</title>
